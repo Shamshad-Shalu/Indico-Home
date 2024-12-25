@@ -44,7 +44,7 @@ nav .buttons a:hover {
     font-family:  Ubuntu,sans-serif ;
 }
 .home-section{
-    background: url(/assets/images/home.jpg) no-repeat;
+    background: url(https://getindico.io/img/hero/home.png) no-repeat;
     background-size: cover;
     background-position: center;
     height:851px;
