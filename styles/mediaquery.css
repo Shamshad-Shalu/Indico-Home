@@ -1,0 +1,46 @@
+@media (min-width:768px) and (max-width:992px){
+    .footer-col-list a {
+        white-space: normal;
+    }
+}
+
+@media (min-width:576px) {
+    .footer-col-list li {
+        text-align:left;
+   }
+}
+
+@media (max-width:768px){
+    .toggle-div {
+        position: absolute;
+        top: 95px;
+        left: 0;
+        right: 0;
+        background-color: var(--nav-bg-color);
+    }
+    #lists .buttons {
+        text-align: center;
+        border-bottom: 1px solid #297699;
+        padding: 18px 0;
+    }
+    #lists .button-1,
+    .toggle-div div:hover{
+        background-color: #2596be; 
+    }
+    .hero-sportlight-2  {
+        font-size: 36px;
+    }
+   
+}
+
+@media (min-width:576px) and (max-width:768px){
+    #lists {
+        padding:0 8%;
+    } 
+}
+
+@media(min-width:576px){
+    .partner-carousel-item-text {
+        font-size: 15px;
+    }
+}

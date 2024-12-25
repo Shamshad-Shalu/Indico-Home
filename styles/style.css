@@ -1,0 +1,250 @@
+/* genaral  */
+:root {
+    --nav-bg-color: rgb(30, 78, 100);           
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+    /* header */
+nav {
+    background-color: var(--nav-bg-color);
+    border-bottom: 1px solid rgb(93, 93, 145);
+}
+nav .container-fluid {
+    height: 90px;
+}
+nav .left-section img {
+    width: 115px;
+    height: 62px;
+}
+nav li {
+    font-weight: 600;
+    font-size: 13px;
+   
+}
+nav .buttons a {
+    color: rgb(239, 235, 241);
+}
+nav .buttons .a1 {
+    color: #FFF;
+}
+
+nav .buttons a:hover {
+    color: rgb(105, 133, 192);
+}
+
+
+/* container  */
+
+/* section - 1 */
+
+.section {
+    font-family:  Ubuntu,sans-serif ;
+}
+.home-section{
+    background: url(/assets/images/home.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:851px;
+    display: flex;
+    justify-content: center;
+       
+}
+.hero-sportligt-1 {
+    color: #9CD5EF;
+    line-height: 25px;
+}
+
+.hero-line-sec {
+    border-bottom: 3px solid #9CD5EF;
+    width: 20%;
+    margin: 20px auto;
+}
+.block-section {
+    margin-top: 68px; 
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+.hero-sportlight-2 {
+    font-weight: 400;
+    margin-top: 40px;
+    font-size: 47px;
+   
+}
+.hero-sportlight-3 a {
+    text-decoration: none;
+    border-radius: 40px;
+    background: #7ED321;
+    font-family: Maven Pro;
+    font-size: 16px;
+    color: #FFF;
+    line-height: 25px;
+    padding: 15px 60px;
+
+}
+.hero-sportlight-3 a:hover {
+    background: #61a31b; 
+}
+.hero-sportlight-4 a {
+    font-family: Quicksand, sans-serif;
+    font-size: 14px;
+    color: #9CD5EF;
+    line-height: 17px;
+    text-decoration: none;
+}
+.hero-sportlight-4 a:hover {
+    color: white;
+}
+
+/*  section-2  */
+
+.section-carousel  img {
+    height: 75px;
+    width: 75px;
+    margin-bottom: 20px;
+}
+.partner-carousel-item-text{
+    font-family: Quicksand, sans-serif;
+    font-size: 13px;
+    color: #FFF;
+}
+
+.section-2  {
+    background-color:  #34AAE0;
+    height: 480px;
+}
+
+    /* section -3  */
+
+.feature-section section {
+    font-family: Ubuntu, sans-serif;
+    background: #D8E3E8;
+}
+
+.feature-heading {
+    color: #1A4A61;
+    margin-top: 100px;
+}
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.features-section-container {
+    min-height: 156px;
+    padding-top: 50px;
+}
+
+.features-section-icon {
+    text-align: center;
+}
+.features-section-icon img {
+    width: 70px;
+    height: 70px;
+}
+.features-section-text {
+    padding-top: 10px;
+    font-family: Quicksand, sans-serif;
+    font-size: 16px;
+    color: #1A4A61;
+    line-height: 24px;
+    text-align: left;
+}
+.block-center { 
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+/* vedio-section */
+
+.vedio-section-youtube {
+    font-family: Ubuntu, sans-serif;
+    background: #D8E3E8;
+    padding: 90px 10px;
+}
+   
+.vedio-title {
+    color: #1A4A61;
+    margin-bottom: 2em;
+    
+}
+
+/* end-section  */
+
+/* footer section  */
+
+.footer-sections {
+    background-color: #1A4A61;
+
+}
+.footer-container {
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
+.footer-col-title {
+   font-family: Maven Pro;
+   font-size: 14px;
+   color: #7A8F99;
+   line-height: 17px;
+}
+.footer-col-list li {
+   list-style: none;
+   font-family: Quicksand, sans-serif;
+   font-size: 14px;
+   margin-bottom: 1rem;
+   
+}
+
+.footer-col-list a {
+   color: #e9e0e0;
+   text-decoration: none;
+   white-space: nowrap;
+
+}
+.footer-col-list a:hover,
+.git-count:hover {
+   color: rgb(105, 133, 192); 
+}
+
+.git-count,
+.github-btn{
+   background-color: #fafafa;
+   padding: 2px 7px 2px 6px;
+   color: #555;
+   white-space: nowrap;
+   cursor: pointer;
+   border-radius: 3px;
+   font-size: 11px;
+   margin-left: 5px;
+}
+
+.github-btn:hover {
+   background-color:  rgb(105, 133, 192);
+   color: #FFF;
+}
+
+/* .copy-right-section  */
+   
+.copy-right-sec .footer-icons i {
+   color: #7A8F99;
+   margin: 10px 10px;
+}
+
+.copy-right-sec .footer-icons i:hover {
+   color: #FFF;
+}
+
+
+.copy-right-sec {
+   font-family: Quicksand, sans-serif;
+   font-size: 14px;
+   color: #FFF;
+   line-height: 40px;
+   padding: 30px 0;
+}
+
